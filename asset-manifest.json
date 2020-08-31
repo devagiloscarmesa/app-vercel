@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/app-vercel/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/app-vercel/static/js/main.77ccb0f5.chunk.js",
+    "main.js.map": "/app-vercel/static/js/main.77ccb0f5.chunk.js.map",
+    "runtime-main.js": "/app-vercel/static/js/runtime-main.586bd113.js",
+    "runtime-main.js.map": "/app-vercel/static/js/runtime-main.586bd113.js.map",
+    "static/css/2.44390fd7.chunk.css": "/app-vercel/static/css/2.44390fd7.chunk.css",
+    "static/js/2.f43690d9.chunk.js": "/app-vercel/static/js/2.f43690d9.chunk.js",
+    "static/js/2.f43690d9.chunk.js.map": "/app-vercel/static/js/2.f43690d9.chunk.js.map",
+    "index.html": "/app-vercel/index.html",
+    "precache-manifest.5fb2a16a26296ea68afd1840ace3197c.js": "/app-vercel/precache-manifest.5fb2a16a26296ea68afd1840ace3197c.js",
+    "service-worker.js": "/app-vercel/service-worker.js",
+    "static/css/2.44390fd7.chunk.css.map": "/app-vercel/static/css/2.44390fd7.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/app-vercel/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.f43690d9.chunk.js.LICENSE.txt": "/app-vercel/static/js/2.f43690d9.chunk.js.LICENSE.txt",
+    "static/media/bascula-dibujo.png": "/app-vercel/static/media/bascula-dibujo.b201ac5c.png",
+    "static/media/font-awesome.min.css": "/app-vercel/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.586bd113.js",
+    "static/css/2.44390fd7.chunk.css",
+    "static/js/2.f43690d9.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.77ccb0f5.chunk.js"
+  ]
+}
