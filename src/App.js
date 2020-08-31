@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Switch, Route, Redirect, Link } from 'react-router-dom'
+import 'bulma/css/bulma.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+import './index.css';
+import CalculadorApp from './components/imc/captura/CalculadorApp'
+import DetalleIMC from './components/imc/proyeccion/DetalleIMCApp'
+export default class App extends React.Component {
+  componentWillMount() {
+    this.setState({ imc: 0 })
+  }
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  render() {
+    return (
+      <div className="App">
+      <BrowserRouter>
+        <div className="tabs">
+          <ul>
+            <li className="is-active"><Link to = "/calculo-imc">Calculo</Link></li>
+            <li><Link to = "/detalle-imc">Detalle</Link></li>
+          </ul>
+        </div>
+        
+          <Switch>
+            <Route path = "/calculo-imc" exact component = {() =>  <CalculadorApp App={this} /> } />
+            <Route path = "/detalle-imc" exact component = {() =>  <DetalleIMC App={this} /> } />
+          </Switch>
+        </BrowserRouter>
+      </div>
+    );
+  }
 }
-
-export default App;
